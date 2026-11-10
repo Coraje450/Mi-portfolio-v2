@@ -1,0 +1,93 @@
+
+body {
+    margin: 0;
+    background-color: gray;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+ 
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: black;
+    overflow: hidden;
+}
+ 
+nav ul li {
+    margin: 20px;
+    float: left;
+    width: 100px;
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ 
+.contenido-pagina {
+    margin: 20px;
+    flex: 1;
+}
+ 
+img {
+    border: 5px solid green;
+}
+ 
+footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+.tabla-horario {
+    overflow-x: auto;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+thead th {
+    background-color: black;
+    color: white;
+}
+
+tbody th {
+    background-color: #ddd;
+    white-space: nowrap;
+}
+
+tr.descanso td {
+    background-color: #eee;
+    font-style: italic;
+}
+
+.ingles     { background-color: #a8d5d9; }
+.redes      { background-color: #b07a68; color: white; }
+.montaje    { background-color: #ffd5c4; }
+.optativo   { background-color: #bb66bb; color: white; }
+.sistemas   { background-color: #f066e6; }
+.tutoria    { background-color: #c866c0; }
+.itinerario { background-color: #99f599; }
+.ofimatica  { background-color: #c8dc7a; }
+.sostenible { background-color: #c8b8f0; }
+.digital    { background-color: #d8e0a0; }
